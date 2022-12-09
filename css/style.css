@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #BA3837;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.9em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 20px;
+}
+
+.large {
+  font-size: 20px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  padding: 12px 23px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 20px;
+}
+.btn-dark {
+  background: #D36B6A;
+  color: #fff;
+  border: none;
+}
+.btn-outline {
+  background: #fff;
+  color: #D36B6A;
+  border: 2px solid #D36B6A;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+form .form-group {
+  margin-bottom: 16px;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 7px 12px;
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+#navbar {
+  padding: 20px 0;
+}
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+#navbar .container .logo img {
+  height: 70px;
+}
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+#navbar ul li {
+  margin-left: 40px;
+}
+#navbar ul li .material-symbols-outlined {
+  font-size: 16px;
+}
+
+#showcase {
+  padding: 20px;
+}
+#showcase .container {
+  display: flex;
+}
+#showcase .container .showcase-text {
+  flex: 2;
+  padding-top: 80px;
+}
+#showcase .container .showcase-text h1,
+#showcase .container .showcase-text p {
+  padding-right: 80px;
+}
+#showcase .container .showcase-form {
+  flex: 1;
+  background: #fff;
+  color: #4d4d4d;
+}
+#showcase .container .showcase-form hr {
+  background: #D36B6A;
+  height: 10px;
+  border: 0;
+}
+#showcase .container .showcase-form h4 {
+  text-align: center;
+  padding-top: 70px;
+}
+#showcase .container .showcase-form form {
+  padding: 50px 60px;
+}
+#showcase .container .showcase-form button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#mainfooter {
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 700px) {
+  #navbar .logo {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  #navbar .container {
+    flex-direction: column;
+  }
+  #navbar ul li {
+    margin-left: 0;
+    padding: 20px;
+  }
+  #showcase {
+    padding-bottom: 20px;
+  }
+  #showcase .container {
+    flex-direction: column;
+  }
+  #showcase .container .showcase-text {
+    padding-top: 0;
+    text-align: center;
+  }
+  #showcase .container .showcase-text h1,
+  #showcase .container .showcase-text p {
+    padding-right: 0px;
+  }
+  #showcase .container .showcase-text .small {
+    padding-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

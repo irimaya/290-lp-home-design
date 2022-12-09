@@ -1,0 +1,37 @@
+@media (max-width: 700px) {
+	// Nav
+	#navbar {
+		.logo {
+			font-size: 1.5rem;
+			padding: 10px;
+		}
+		.container {
+			flex-direction: column;
+		}
+		ul {
+			li {
+				margin-left: 0;
+				padding: 20px;
+			}
+		}
+	} //End #navbar
+
+	// Showcase
+	#showcase {
+		padding-bottom: 20px;
+		.container {
+			flex-direction: column;
+			.showcase-text {
+				padding-top: 0;
+				text-align: center;
+				h1,
+				p {
+					padding-right: 0px;
+				}
+				.small {
+					padding-bottom: 20px;
+				}
+			}
+		}
+	} //End #showcase
+}
